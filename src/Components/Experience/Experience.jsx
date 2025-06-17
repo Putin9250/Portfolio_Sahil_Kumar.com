@@ -8,7 +8,7 @@ const experienceData = [
     company: "Parahittech",
     duration: "Dec 2024 – Feb 2025",
     location: "Delhi, India",
-    certificateImg: "/Parrahit.jpg",
+    certificateImg: "Parrahit.jpg",
     tasks: [
       "Collected and analyzed ground-level feedback on government campaigns.",
       "Communicated policies clearly to the public.",
@@ -22,7 +22,7 @@ const experienceData = [
     company: "SourceFuse",
     duration: "Mar 2024 – Aug 2024",
     location: "ITI Pusa, Delhi",
-    certificateImg: "/Cloud.jpg",
+    certificateImg: "Cloud.jpg",
     tasks: [
       "Completed internship training focused on AWS core services: EC2, S3, RDS, IAM.",
       "Built scalable cloud architecture and understood infrastructure deployment models.",
@@ -34,7 +34,7 @@ const experienceData = [
     company: "Edunet Foundation",
     duration: "Oct 2023 – Dec 2023",
     location: "ITI Pusa, Delhi",
-    certificateImg: "/MS SKILL.jpg",
+    certificateImg: "MS SKILL.jpg",
     tasks: [
       "Mastered communication and teamwork essentials.",
       "Refined problem-solving for real-world tasks.",
