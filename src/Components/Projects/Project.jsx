@@ -5,7 +5,7 @@ function Project() {
     {
       id: 1,
       title: "Martial Arts Academy (Freelancing)",
-      image: "public/Project1.png",
+      image: "/Project1.png",
       description:
         "Crafted a responsive and engaging website for Final Round Fight Club, A Professional MMA Academy.",
       role: "Frontend Developer",
@@ -21,7 +21,7 @@ function Project() {
     {
       id: 2,
       title: "University Portfolio Website",
-      image: "public/Project2.jpeg",
+      image: "Project2.jpeg",
       description:
         "A clean and structured personal website created as a frontend practice project, showcasing academic and extracurricular details.",
       role: "Frontend Developer",

@@ -38,7 +38,7 @@ const Hero = ({ onExploreClick }) => {
                 <FaGithub /> ______
               </a>
               <a
-                href="https://github.com/Putin9250"
+                href="https://www.linkedin.com/in/putin1/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="GitHub"
