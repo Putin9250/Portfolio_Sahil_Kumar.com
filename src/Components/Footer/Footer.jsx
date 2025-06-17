@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <>
       <div className="back-top flexCenter">
-        <a href="Home">Back To Top</a>
+        <a href="#Home">Back To Top</a>
       </div>
       <hr />
       <footer className="footer-section">
