@@ -1,0 +1,36 @@
+.skills-section {
+  background-color: rgba(64, 102, 255, 0.05);
+  text-align: center;
+}
+
+.skill-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  width: 130px;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--shadow);
+  transition: transform 0.3s ease;
+  cursor: default;
+}
+
+.skill-card .icon {
+  font-size: 2.5rem;
+  color: var(--primary);
+  margin-bottom: 0.8rem;
+}
+
+.skill-card span {
+  font-weight: 500;
+  font-size: 0.95rem;
+  color: var(--primary);
+}
+
+.skill-card:hover {
+  transform: scale(1.05);
+}
+

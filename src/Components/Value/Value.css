@@ -1,0 +1,67 @@
+.Value-Wrapper {
+  background-color: rgba(127, 90, 240, 0.14);
+}
+.values-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.value-card {
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: var(--shadow);
+  flex: 1 1 calc(33.33% - 2rem); /* 3 cards per row minus gap */
+  max-width: calc(33.33% - 2rem);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transform-origin: center;
+}
+.value-quote {
+  font-size: 1rem;
+  font-weight: 600;
+  font-style: italic;
+  color: var(--primary); /* deep blue */
+  text-align: center;
+  margin-top: 1rem;
+  line-height: 1;
+  position: relative;
+  padding: 1.5rem 2rem;
+  background: var(--lightBlue);
+  border-left: 4px solid var(--blue);
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+}
+.value-quote::before {
+  content: "“";
+  font-size: 3rem;
+  color: var(--blue);
+  position: absolute;
+  top: -10px;
+  left: 15px;
+  opacity: 0.2;
+}
+
+.value-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive: 2 cards per row */
+@media (max-width: 1024px) {
+  .value-card {
+    flex: 1 1 calc(50% - 2rem);
+    max-width: calc(50% - 2rem);
+  }
+}
+
+/* Responsive: 1 card per row */
+@media (max-width: 640px) {
+  .value-card {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+}
