@@ -4,6 +4,21 @@ function Project() {
   const projectsData = [
     {
       id: 1,
+      title: "Orange Fanta",
+      image: "Project3.png",
+      description:
+        "Designed and developed a vibrant, fully responsive landing page for a Fanta-inspired beverage brand. The site reflects a fizzy, colorful user experience that mirrors the bold flavor and lively spirit of the drink.",
+      role: "Frontend Developer",
+      technologies: ["React.JS", "Tailwind CSS", "Netlify"],
+      impact:
+        "Learned responsive design with Tailwind, smooth animations with Framer Motion, and deployed my product-themed React site using Netlify.",
+      liveLink: "https://splendorous-malasada-67f087.netlify.app/",
+      githubLink: "https://github.com/Putin9250/Fanta.com",
+      testimonial:
+        "A vibrant site that feels as fresh as the drink itself — smooth, colorful, and delightfully interactive. Great execution!",
+    },
+    {
+      id: 2,
       title: "Martial Arts Academy (Freelancing)",
       image: "Project1.png",
       description:
@@ -19,7 +34,7 @@ function Project() {
         "Delivered with precision. The new site brought us real engagement. Highly appreciated!",
     },
     {
-      id: 2,
+      id: 3,
       title: "University Portfolio Website",
       image: "Project2.jpeg",
       description:
