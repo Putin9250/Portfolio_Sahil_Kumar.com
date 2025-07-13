@@ -3,6 +3,22 @@ import "./Project.css";
 function Project() {
   const projectsData = [
     {
+      id: 4,
+      title: "React Dev Portfolio ",
+      image: "Project4.png",
+      description:
+          "Developed a sleek and responsive React.js portfolio site to showcase the work of a WordPress developer. The design emphasizes modern aesthetics and clean structure, helping to highlight their skills in WordPress, Elementor, and custom theme development.",
+      role: "Frontend Developer",
+      technologies: ["React.JS", "Tailwind CSS", "ChatGpt"],
+      impact:
+        "Created an engaging platform that effectively showcases the client’s WordPress expertise, boosting their professional visibility and client confidence.",
+      liveLink: "https://putin9250.github.io/Deepanshu2/",
+      githubLink:
+        "https://github.com/Putin9250/Portfolio_Sahil_Kumar.com/tree/gh-pages",
+      testimonial:
+"This portfolio beautifully captures my skills as a WordPress developer while providing a smooth, modern user experience. The React design truly brings my work to life — professional, clean, and engaging!",
+    },  
+    {
       id: 1,
       title: "Orange Fanta",
       image: "Project3.png",
@@ -12,7 +28,7 @@ function Project() {
       technologies: ["React.JS", "Tailwind CSS", "Netlify"],
       impact:
         "Learned responsive design with Tailwind, smooth animations with Framer Motion, and deployed my product-themed React site using Netlify.",
-      liveLink: "https://splendorous-malasada-67f087.netlify.app/",
+      liveLink: "https://legendary-stardust-fe9a5c.netlify.app/",
       githubLink: "https://github.com/Putin9250/Fanta.com",
       testimonial:
         "A vibrant site that feels as fresh as the drink itself — smooth, colorful, and delightfully interactive. Great execution!",
